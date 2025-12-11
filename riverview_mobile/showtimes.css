@@ -1,0 +1,81 @@
+body {
+   background-color: #58595b;
+}
+
+p {
+    text-align: center;
+    font-family: noka light, Arial, sans-serif;
+    color: #f2f2f2;
+    padding-bottom: 0px;
+    font-size: 2em;
+}
+.topnav {
+    background-color: #456491;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: noka light, arial, sans-serif;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(3, 46, 109);
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-bottom: -30px;
+}
+
+.column {
+    flex: 50%;
+    margin: 30px 75px;
+    text-align: center;
+}
+
+.column img {
+
+    vertical-align: middle;
+    margin: 0px 100px;
+    margin-bottom: 100px;
+    box-shadow: #001111 5px 5px 5px;
+}
+
+
+
+img {
+    height: 295px;
+    width: 200px;
+    border: 4px #456491 solid;
+}
+
+.row .column a img:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.pricing {
+    margin-top: -100px;
+    margin-bottom: 45px;
+}
+
+footer {
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+}

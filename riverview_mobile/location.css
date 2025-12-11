@@ -1,0 +1,56 @@
+body {
+    background-color: #58595b;
+}
+.topnav {
+    background-color: #456491;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: noka light, arial, sans-serif;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(3, 46, 109);
+    color: white;
+}
+
+h2  {
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+.section-map-container  {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 45px;
+}
+
+footer {
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+}
+
+.container {
+    min-height: 100vh;
+}

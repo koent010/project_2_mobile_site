@@ -1,0 +1,76 @@
+@media only screen and (max-device-width: 1300px) {}
+
+.fixed_shape {
+    position: fixed; /* This is the key property */
+    top: 63%;       /* Distance from the top of the viewport */
+    right: 15%;      /* Distance from the right of the viewport */
+    opacity: 0.75;
+    height: 245px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: noka light, arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;   /* Optional: set height */
+    background-color: rgb(3, 46, 109); /* Optional: for visibility */
+    z-index: 1000;   /* Optional: control stacking order */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.rectangle {*/
+/*    width: 280px;*/
+/*    height: 250px;*/
+/*    background-color: rgb(3, 46, 109);*/
+/*    border-radius: 20px;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-family: noka light, Arial, sans-serif;*/
+/*    font-size: 1.2em;*/
+/*}*/
+
+img {
+   width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.rectangle {
+    position: fixed;
+    align-self: center;
+    top: 65%;
+    left: 18%;
+    opacity: 0.75;
+    height: 245px;
+    width: 300px;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: noka light, arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+   }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkgray;
+}

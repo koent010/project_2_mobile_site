@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link href="about_us.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xwv7ckt.css">
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+
+</head>
+<body>
+<div class="topnav">
+    <a href="showtimes.html">Showtimes</a>
+    <a class="active" href="about_us.html">About Us</a>
+    <a href="special_events.html">Special Events</a>
+    <a href="location.html">Location</a>
+</div>
+
+<!--<h1>21st Century Cinema Technology in a 1950s Style Theater</h1>-->
+
+<!--<div class="row">-->
+<!--    <div class="column">-->
+<!--        <img alt="The Riverview's distinctive marquee is a prominent feature at the intersection of East 38th Street and 42nd Avenue" src="img/abt/rv1.jpg">-->
+<!--        <img alt="Lobby entrance" src="img/abt/rv2.jpg">-->
+<!--        <img alt="A green tiled wall behind a copper drinking fountain provides the backdrop for the lobby" src="img/abt/rv3.jpg">-->
+<!--        <img alt="Lighting above the windows on 42nd Avenue" src="img/abt/rv4.jpg">-->
+<!--        <img alt="A curved ceiling, indirect lighting and beams provide an accent for the main lobby" src="img/abt/rv6.jpg">-->
+<!--        <img alt="The lounge area with its built-in television acknowledged the importance of the new medium" src="img/abt/rv7.jpg">-->
+<!--        <img alt="A view of the auditorium from the stage" src="img/abt/rv8.jpg">-->
+<!--        <img alt="Photos in the lobby depict the theater in 1956, following a major re-decoration" src="img/abt/rv9.jpg">-->
+<!--        <img alt="The women's lounge is a classic space featuring indirect lighting, mirrors and a cat-themed wallpaper print" src="img/abt/rv10.jpg">-->
+<!--    </div>-->
+
+<!--</div>-->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 9</div>
+        <img alt="The Riverview's distinctive marquee is a prominent feature at the intersection of East 38th Street and 42nd Avenue" src="img/abt/rv1.jpg" style="width:100%">
+        <div class="text">The Riverview's distinctive marquee is a prominent feature at the intersection of East 38th Street and 42nd Avenue</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 9</div>
+        <img alt="Lobby entrance" src="img/abt/rv2.jpg" style="width:100%">
+        <div class="text">Lobby entrance</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 9</div>
+        <img alt="A green tiled wall behind a copper drinking fountain provides the backdrop for the lobby" src="img/abt/rv3.jpg" style="width:100%">
+        <div class="text">A green tiled wall behind a copper drinking fountain provides the backdrop for the lobby</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 9</div>
+        <img alt="Lighting above the windows on 42nd Avenue" src="img/abt/rv4.jpg" style="width:100%">
+        <div class="text">Lighting above the windows on 42nd Avenue</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 9</div>
+        <img alt="A curved ceiling, indirect lighting and beams provide an accent for the main lobby" src="img/abt/rv6.jpg" style="width:100%">
+        <div class="text">A curved ceiling, indirect lighting and beams provide an accent for the main lobby</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 9</div>
+        <img alt="The lounge area with its built-in television acknowledged the importance of the new medium" src="img/abt/rv7.jpg" style="width:100%">
+        <div class="text">The lounge area with its built-in television acknowledged the importance of the new medium</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 9</div>
+        <img alt="A view of the auditorium from the stage" src="img/abt/rv8.jpg" style="width:100%">
+        <div class="text">A view of the auditorium from the stage</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 9</div>
+        <img alt="Photos in the lobby depict the theater in 1956, following a major re-decoration" src="img/abt/rv9.jpg" style="width:100%">
+        <div class="text">Photos in the lobby depict the theater in 1956, following a major re-decorationPhotos in the lobby depict the theater in 1956, following a major re-decoration</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 9</div>
+        <img alt="The women's lounge is a classic space featuring indirect lighting, mirrors and a cat-themed wallpaper print" src="img/abt/rv10.jpg" style="width:100%">
+        <div class="text">The women's lounge is a classic space featuring indirect lighting, mirrors and a cat-themed wallpaper print</div>
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+</div>
+
+<footer>Copyright ©2025 Riverview Theater • 3800 42nd Ave South, Minneapolis, MN 55406 • 612-729-7369 • Website Design by Bergen Koentopf</footer>
+</body>
+</html>

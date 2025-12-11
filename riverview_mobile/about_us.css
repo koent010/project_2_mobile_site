@@ -1,0 +1,175 @@
+
+body {
+    background-color: #58595b;
+}
+.topnav {
+    background-color: #456491;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: noka light, arial, sans-serif;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(3, 46, 109);
+    color: white;
+}
+
+/*.row {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    padding: 0 4px;*/
+/*}*/
+
+/*.column {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.column img {*/
+/*    vertical-align: middle;*/
+/*    margin: 50px 100px;*/
+/*    margin-bottom: 100px;*/
+/*}*/
+
+
+/*img {*/
+/*    border: 4px #456491 solid;*/
+/*}*/
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(3, 46, 109,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: noka light, arial, sans-serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px}
+}
+
+
+
+
+h1  {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: noka light, Arial, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+    margin-top: 75px;
+    position: fixed;
+    bottom: 20px;
+}

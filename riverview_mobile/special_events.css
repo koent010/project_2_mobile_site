@@ -1,0 +1,89 @@
+body {
+    background-color: #58595b;
+}
+.topnav {
+    background-color: #456491;
+    overflow: hidden;
+}
+body {
+    min-height: 100vh;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: noka light, arial, sans-serif;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: rgb(3, 46, 109);
+    color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+h1 {
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 50vw;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    font-size: large;
+    line-height: 2;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.text {
+    margin-right: 5vw;
+}
+
+img {
+    border: 4px #456491 solid;
+    text-align: right;
+    /*margin-top: 45px;*/
+    margin: 45px 45px 0 0;
+}
+
+a {
+    text-decoration: rgb(3, 46, 109);
+}
+
+a:hover {
+    color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    font-family: noka light, arial, sans-serif;
+    color: #f2f2f2;
+}
